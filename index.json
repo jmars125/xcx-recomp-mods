@@ -1,0 +1,47 @@
+{
+ "format": 2,
+ "mods": [
+  {
+   "id": "cut-content-restoration",
+   "kind": "romfs",
+   "name": "Cut Content Restoration",
+   "version": "1",
+   "requires": [],
+   "description": "Restores dozens of unused missions, weapons, arts and Skells.",
+   "author": "threethan",
+   "license": "",
+   "homepage": "https://gamebanana.com/mods/607445",
+   "url": "https://gamebanana.com/dl/1478745",
+   "sha256": "c63028b3c37f60706b2dfa75dbaf37c2b7aab70903b3d56735f25c846390f732",
+   "size": 4117495,
+   "notes": "Uses the mod's game data files; its Switch code plugin (exefs) is not needed on XCX Recomp. Changes data loaded at boot, so restart the game after turning it on or off. Missions or items it adds may vanish from a save made with it if it is removed."
+  },
+  {
+   "id": "hello",
+   "kind": "lua",
+   "name": "Hello workshop",
+   "version": "0.1.0",
+   "requires": [],
+   "description": "A small example: a Mods page with one setting and a button that says hello.",
+   "author": "XCX Recomp",
+   "license": "MIT",
+   "homepage": "",
+   "path": "mods/hello"
+  },
+  {
+   "id": "potato-tatsu",
+   "kind": "romfs",
+   "name": "Potato Tatsu",
+   "version": "1",
+   "requires": [],
+   "description": "Tatsu becomes an actual potato.",
+   "author": "ScanMountGoat",
+   "license": "",
+   "homepage": "https://gamebanana.com/mods/651545",
+   "url": "https://gamebanana.com/dl/1619737",
+   "sha256": "1a31fdde6c005ea075956b3321e368594134141a8dae5703067e45e6c5d837d8",
+   "size": 11726561,
+   "notes": "Model replacement; applies the next time Tatsu's model loads."
+  }
+ ]
+}
