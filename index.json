@@ -26,7 +26,24 @@
    "author": "XCX Recomp",
    "license": "MIT",
    "homepage": "",
-   "path": "mods/hello"
+   "path": "mods/hello",
+   "files": [
+    {
+     "name": "info.ini",
+     "size": 118,
+     "sha256": "200b312d55636b778a4093e49dc488953189f225b704543b3c8f069f5ad00c5c"
+    },
+    {
+     "name": "main.lua",
+     "size": 633,
+     "sha256": "f4b0586fe6751b6eae4b1cb09334b8e30df2a7532cbadcd6724dcaadaee2e8ef"
+    },
+    {
+     "name": "mod.ini",
+     "size": 83,
+     "sha256": "14743fb83306f70aff5685aa681a371a1ea9a695782678cea3b8c3e4526f65bb"
+    }
+   ]
   },
   {
    "id": "potato-tatsu",

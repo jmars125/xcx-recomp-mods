@@ -16,6 +16,7 @@ the manifest id, the manifest is strict key=value with api=1 and language=lua55-
 their own.
 """
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -90,7 +91,9 @@ def check_package(folder):
             raise ValueError(f'info.ini needs {need}=')
     return {'id': mid, 'kind': 'lua', 'name': name, 'version': m['version'], 'requires': requires,
             'description': info['description'], 'author': info['author'], 'license': info['license'],
-            'homepage': info.get('homepage', ''), 'path': f'mods/{mid}'}
+            'homepage': info.get('homepage', ''), 'path': f'mods/{mid}',
+            'files': [{'name': p.name, 'size': p.stat().st_size, 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()}
+                      for p in sorted(folder.iterdir())]}
 
 
 def check_link(path):
