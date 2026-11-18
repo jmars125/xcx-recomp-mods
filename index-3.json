@@ -1,0 +1,156 @@
+{
+ "format": 3,
+ "mods": [
+  {
+   "id": "cut-content-restoration",
+   "kind": "romfs",
+   "name": "Cut Content Restoration",
+   "version": "1",
+   "requires": [],
+   "description": "Restores dozens of unused missions, weapons, arts and Skells.",
+   "author": "threethan",
+   "license": "",
+   "homepage": "https://gamebanana.com/mods/607445",
+   "url": "https://gamebanana.com/dl/1478745",
+   "sha256": "c63028b3c37f60706b2dfa75dbaf37c2b7aab70903b3d56735f25c846390f732",
+   "size": 4117495,
+   "notes": "Uses the mod's game data files; its Switch code plugin (exefs) is not needed on XCX Recomp. Changes data loaded at boot, so restart the game after turning it on or off. Missions or items it adds may vanish from a save made with it if it is removed."
+  },
+  {
+   "id": "fhav6x-tweaks",
+   "kind": "romfs",
+   "name": "Tweaks mod",
+   "version": "1.0",
+   "requires": [],
+   "description": "Quality-of-life tweaks: every chance shown as a percentage, Skells in time attack and support missions, larger storage probes, stronger treasure sensors, more appendage targeting, more multi-guns and earlier DLC missions.",
+   "author": "Fhav6X",
+   "license": "",
+   "homepage": "https://www.nexusmods.com/xenobladechroniclesx/mods/10",
+   "download": "manual",
+   "parts": [
+    {
+     "id": "all",
+     "name": "All tweaks",
+     "description": "Every tweak of the mod in one file, including changes no option has (such as chances shown as percentages): 9 of the 22 game tables it changes are in no option.",
+     "page": "https://www.nexusmods.com/xenobladechroniclesx/mods/10?tab=files&file_id=14",
+     "file": "all tweaks mod-10-1-0-1745514276.rar",
+     "sha256": "748d182bfe0b3e5b9afb472624445e77f4db10f984249f0f031f76e14daf4756",
+     "size": 3479872,
+     "includes": [
+      "probe",
+      "treasure-sensor",
+      "timeattack",
+      "appendages",
+      "multiguns",
+      "missions"
+     ]
+    },
+    {
+     "id": "probe",
+     "name": "Probe tweak",
+     "description": "Storage probes hold 10,000 instead of 3,000.",
+     "page": "https://www.nexusmods.com/xenobladechroniclesx/mods/10?tab=files&file_id=18",
+     "file": "probe tweak-10-1-0-1745514623.rar",
+     "sha256": "978da400ad513cc161a99fb1c883aa8eb418526114bf7679c7f628120bdf3e98",
+     "size": 3946,
+     "includes": []
+    },
+    {
+     "id": "treasure-sensor",
+     "name": "Treasure sensor up",
+     "description": "Treasure sensor augments are stronger: two of the best reach the highest drop chance.",
+     "page": "https://www.nexusmods.com/xenobladechroniclesx/mods/10?tab=files&file_id=21",
+     "file": "treasure sensor up-10-1-0-1745514745.rar",
+     "sha256": "1932a17d391b97b3205628c767bc2a31a67b3f6072c71b9340db5ebb45d1d42b",
+     "size": 107707,
+     "includes": []
+    },
+    {
+     "id": "timeattack",
+     "name": "Time attack and support mission tweaks",
+     "description": "Skells can be used in time attack and support missions.",
+     "page": "https://www.nexusmods.com/xenobladechroniclesx/mods/10?tab=files&file_id=20",
+     "file": "timeattack and support mission tweaks-10-1-0-1745514701.rar",
+     "sha256": "b6d408168bc568c318975b1768393a5829cb3f685056b5bdf2c5f042bc9e251c",
+     "size": 31754,
+     "includes": []
+    },
+    {
+     "id": "appendages",
+     "name": "Target appendages more",
+     "description": "More arts can target an enemy's appendages.",
+     "page": "https://www.nexusmods.com/xenobladechroniclesx/mods/10?tab=files&file_id=19",
+     "file": "target appendages more-10-1-0-1745514662.rar",
+     "sha256": "dc9507eddd87375a3c25b3192c95edd698a42199286fef54e2500c353ba57156",
+     "size": 19153,
+     "includes": []
+    },
+    {
+     "id": "multiguns",
+     "name": "More multiguns",
+     "description": "More multi-gun weapons among those you can find.",
+     "page": "https://www.nexusmods.com/xenobladechroniclesx/mods/10?tab=files&file_id=17",
+     "file": "more multiguns-10-1-0-1745514556.rar",
+     "sha256": "53f6212781f658f2ea3120b373aa7526de2c4e7e57fe740121c52ff0a4391907",
+     "size": 165619,
+     "includes": []
+    },
+    {
+     "id": "missions",
+     "name": "Earlier missions",
+     "description": "DLC missions become available earlier.",
+     "page": "https://www.nexusmods.com/xenobladechroniclesx/mods/10?tab=files&file_id=16",
+     "file": "earlier missions-10-1-0-1745514508.rar",
+     "sha256": "689d0b0afb42e5e63570a3fd321562072654607750e05259a0b234eb83c6e24e",
+     "size": 116663,
+     "includes": []
+    }
+   ],
+   "notes": "Nexus Mods allows downloads only from its own page, so Install opens the page and asks for the files you downloaded. Take All tweaks, or only the options you want; the options together are not all of All tweaks. All tweaks is a whole common.bdat; the options are single bdat tables that the game merges into its own at start-up, which needs an XCX Recomp build with the bdat merge. Restart the game after turning a part on or off."
+  },
+  {
+   "id": "hello",
+   "kind": "lua",
+   "name": "Hello workshop",
+   "version": "0.1.0",
+   "requires": [],
+   "description": "A small example: a Mods page with one setting and a button that says hello.",
+   "author": "XCX Recomp",
+   "license": "MIT",
+   "homepage": "",
+   "path": "mods/hello",
+   "files": [
+    {
+     "name": "info.ini",
+     "size": 118,
+     "sha256": "200b312d55636b778a4093e49dc488953189f225b704543b3c8f069f5ad00c5c"
+    },
+    {
+     "name": "main.lua",
+     "size": 633,
+     "sha256": "f4b0586fe6751b6eae4b1cb09334b8e30df2a7532cbadcd6724dcaadaee2e8ef"
+    },
+    {
+     "name": "mod.ini",
+     "size": 83,
+     "sha256": "14743fb83306f70aff5685aa681a371a1ea9a695782678cea3b8c3e4526f65bb"
+    }
+   ]
+  },
+  {
+   "id": "potato-tatsu",
+   "kind": "romfs",
+   "name": "Potato Tatsu",
+   "version": "1",
+   "requires": [],
+   "description": "Tatsu becomes an actual potato.",
+   "author": "ScanMountGoat",
+   "license": "",
+   "homepage": "https://gamebanana.com/mods/651545",
+   "url": "https://gamebanana.com/dl/1619737",
+   "sha256": "1a31fdde6c005ea075956b3321e368594134141a8dae5703067e45e6c5d837d8",
+   "size": 11726561,
+   "notes": "Model replacement; applies the next time Tatsu's model loads."
+  }
+ ]
+}
